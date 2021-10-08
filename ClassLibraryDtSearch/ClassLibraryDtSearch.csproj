@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="dtSearchNetStdApi">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\dtSearch Developer\lib\engine\NetStd\dtSearchNetStdApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

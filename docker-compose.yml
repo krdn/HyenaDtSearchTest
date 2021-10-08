@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  indexingdtsearch:
+    image: ${DOCKER_REGISTRY-}indexingdtsearch
+    build:
+      context: .
+      dockerfile: IndexingDtSearch/Dockerfile
+
+  apidtsearch:
+    image: ${DOCKER_REGISTRY-}apidtsearch
+    build:
+      context: .
+      dockerfile: ApiDtSearch/Dockerfile
+
+
